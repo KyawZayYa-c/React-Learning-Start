@@ -7,12 +7,20 @@ import Bordered from "@/app/components/Bordered";
 import Dashboard from "@/app/components/conditional-render/Dashboard";
 import ItemWithFlag from "@/app/components/conditional-render/ItemWithFlag";
 import ItemList from "@/app/components/ItemList";
+import UserList from "@/app/components/UserList";
+import EventDemo from "@/app/components/interactivity/EventDemo";
+import PropagationDemo from "@/app/components/PropagationDemo";
+import Counter from "@/app/components/Couter";
+import TimmerDemo from "@/app/components/TimmerDemo";
+import BatchUpdateDemo from "@/app/components/BatchUpdateDemo";
+import ItemListWithState from "@/app/components/ItemListWithState";
+import ObjectUpdate from "@/app/components/ObjectUpdate";
 
 export default function Home() {
   return (
     <div className={styles.page}>
 
-        <h1>Hello React Js Day 1</h1>
+        <h1>Hello React Js Day 2</h1>
           {/*<HelloWorld />*/}
           {/*<HelloWorld />*/}
           {/*<Welcome />*/}
@@ -33,8 +41,18 @@ export default function Home() {
         {/*</Bordered>*/}
         {/*<Dashboard role={'admin'} />*/}
         {/*<ItemWithFlag flag={true} name={'Apple'} />*/}
+        {/*<ItemList />*/}
 
-        <ItemList />
+        {/*<UserList />*/}
+
+
+        {/*<EventDemo />*/}
+        {/*<PropagationDemo />*/}
+        {/*<Counter />*/}
+        {/*<TimmerDemo />*/}
+        {/*<BatchUpdateDemo />*/}
+        {/*<ItemListWithState />*/}
+        <ObjectUpdate />
     </div>
   );
 }
