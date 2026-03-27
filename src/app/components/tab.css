@@ -1,0 +1,18 @@
+.tab-header {
+    width : 80px;
+    border-bottom : 3px solid yellow;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.active{
+    color : green;
+    border-bottom: 5px solid green;
+    font-weight: bold;
+}
+
+.tab-content {
+    border : 1px solid gray;
+    height: 200px;
+}
