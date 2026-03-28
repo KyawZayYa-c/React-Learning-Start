@@ -27,12 +27,26 @@ import FilterableProduct from "@/app/components/FilterableProduct";
 import DestroyComponent from "@/app/components/reconcilition/DestroyComponent";
 import TodoList from "@/app/components/TodoList";
 import CounterWithReducer from "@/app/components/reducer/CounterWithReducer";
+import TodoListWithReducer from "@/app/components/reducer/TodoListWithReducer";
+import WhyContext from "@/app/components/context/WhyContext";
+import ContextDemo from "@/app/components/context/ContextDemo";
+import TodoWithContext from "@/app/components/context/TodoWithContext";
+import TodoWithContextDemo from "@/app/components/context/TodoWithContextDemo";
+import WhyRef from "@/app/components/ref/WhyRef";
+import FocusInput from "@/app/components/ref/FocusInput";
+import CustomInputDemo from "@/app/components/ref/CustomInputDemo";
+import EffectDemo from "@/app/components/effect/EffectDemo";
+import EffectLifCycle from "@/app/components/effect/EffectLifeCycle";
+import TimerDemo from "@/app/components/effect/TimerDemo";
+import CleanUpDemo from "@/app/components/effect/CleanUpDemo";
+import TodoCount from "@/app/components/context/TodoCount";
+import TodoWithDataFetch from "@/app/components/effect/TodoWithDataFetch";
 
 export default function Home() {
   return (
     <div className={styles.page}>
 
-        <h1 className={styles.head}>Hello React Js Day 3</h1>
+        <h1 className={styles.head}>Hello React Js Day 4</h1>
           {/*<HelloWorld />*/}
           {/*<HelloWorld />*/}
           {/*<Welcome />*/}
@@ -88,8 +102,19 @@ export default function Home() {
         {/*<FilterableProductTable />*/}
         {/*<FilterableProduct />*/}
         {/*<DestroyComponent />*/}
-        <TodoList />
+        {/*<TodoList />*/}
         {/*<CounterWithReducer />*/}
+        {/*<WhyContext />*/}
+        {/*<ContextDemo />*/}
+        {/*<TodoWithContextDemo />*/}
+        {/*<WhyRef />*/}
+        {/*<FocusInput />*/}
+        {/*<CustomInputDemo />*/}
+        {/*<EffectDemo />*/}
+        {/*<EffectLifCycle />*/}
+        {/*<TimerDemo />*/}
+        {/*<CleanUpDemo />*/}
+        <TodoWithDataFetch />
     </div>
   );
 }
