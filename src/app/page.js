@@ -41,12 +41,18 @@ import TimerDemo from "@/app/components/effect/TimerDemo";
 import CleanUpDemo from "@/app/components/effect/CleanUpDemo";
 import TodoCount from "@/app/components/context/TodoCount";
 import TodoWithDataFetch from "@/app/components/effect/TodoWithDataFetch";
+import LoadTodo from "@/app/components/hooks/LoadTodo";
+import LoadUser from "@/app/components/hooks/LoadUser";
+import LoadDataWithHook from "@/app/components/hooks/LoadDataWithHook";
+import FormWithHook from "@/app/components/hooks/FormWithHook";
+import SimpleLoginForm from "@/app/components/Form/SimpleLoginForm";
+import MovieForm from "@/app/components/Form/MovieForm";
 
 export default function Home() {
   return (
     <div className={styles.page}>
 
-        <h1 className={styles.head}>Hello React Js Day 4</h1>
+        <h1 className={styles.head}>Hello React Js Day 5</h1>
           {/*<HelloWorld />*/}
           {/*<HelloWorld />*/}
           {/*<Welcome />*/}
@@ -114,7 +120,14 @@ export default function Home() {
         {/*<EffectLifCycle />*/}
         {/*<TimerDemo />*/}
         {/*<CleanUpDemo />*/}
-        <TodoWithDataFetch />
+        {/*<TodoWithDataFetch />*/}
+        {/*<LoadTodo />*/}
+        {/*<LoadUser />*/}
+        {/*<LoadDataWithHook />*/}
+        {/*<TodoListWithReducer />*/}
+        {/*<FormWithHook />*/}
+        {/*<SimpleLoginForm />*/}
+        <MovieForm />
     </div>
   );
 }
