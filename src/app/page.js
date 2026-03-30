@@ -47,12 +47,20 @@ import LoadDataWithHook from "@/app/components/hooks/LoadDataWithHook";
 import FormWithHook from "@/app/components/hooks/FormWithHook";
 import SimpleLoginForm from "@/app/components/Form/SimpleLoginForm";
 import MovieForm from "@/app/components/Form/MovieForm";
+import WhyRenderProp from "@/app/components/design_pattern/render_property/WhyRenderProp";
+import RenderPropDemo from "@/app/components/design_pattern/render_property/RenderPropDemo";
+import WhyHoc from "@/app/components/design_pattern/hoc/WhyHoc";
+import HocWithLoggeDemo from "@/app/components/design_pattern/hoc/HocWithLoggeDemo";
+import WhyHocAuth from "@/app/components/design_pattern/hoc/WhyHocAuth";
+import AuthDemo from "@/app/components/design_pattern/hoc/AuthDemo";
+import ProtectedDemo from "@/app/components/design_pattern/componund/ProtectedDemo";
+import RouterDemo from "@/app/components/router/RouterDemo";
 
 export default function Home() {
   return (
     <div className={styles.page}>
 
-        <h1 className={styles.head}>Hello React Js Day 5</h1>
+        <h1 className={styles.head}>Hello React Js Day 6</h1>
           {/*<HelloWorld />*/}
           {/*<HelloWorld />*/}
           {/*<Welcome />*/}
@@ -127,7 +135,15 @@ export default function Home() {
         {/*<TodoListWithReducer />*/}
         {/*<FormWithHook />*/}
         {/*<SimpleLoginForm />*/}
-        <MovieForm />
+        {/*<MovieForm />*/}
+        {/*<WhyRenderProp />*/}
+        {/*<RenderPropDemo />*/}
+        {/*<WhyHoc />*/}
+        {/*<HocWithLoggeDemo />*/}
+        {/*<WhyHocAuth />*/}
+        {/*<AuthDemo />*/}
+        {/*<ProtectedDemo />*/}
+        <RouterDemo />
     </div>
   );
 }
