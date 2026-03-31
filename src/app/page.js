@@ -55,12 +55,17 @@ import WhyHocAuth from "@/app/components/design_pattern/hoc/WhyHocAuth";
 import AuthDemo from "@/app/components/design_pattern/hoc/AuthDemo";
 import ProtectedDemo from "@/app/components/design_pattern/componund/ProtectedDemo";
 import RouterDemo from "@/app/components/router/RouterDemo";
+import WhyUseCallback from "@/app/components/hooks/WhyUseCallback";
+import MemoDemo from "@/app/components/hooks/MemoDemo";
+import PortalDemo from "@/app/components/PortalDemo";
+import TableDemo from "@/app/components/table/TableDemo";
+import DatagridDemo from "@/app/components/table/DatagridDemo";
 
 export default function Home() {
   return (
     <div className={styles.page}>
 
-        <h1 className={styles.head}>Hello React Js Day 6</h1>
+        <h1 className={styles.head}>Hello React Js Day 7</h1>
           {/*<HelloWorld />*/}
           {/*<HelloWorld />*/}
           {/*<Welcome />*/}
@@ -143,7 +148,13 @@ export default function Home() {
         {/*<WhyHocAuth />*/}
         {/*<AuthDemo />*/}
         {/*<ProtectedDemo />*/}
-        <RouterDemo />
+        {/*<RouterDemo />*/}
+
+        {/*<WhyUseCallback />*/}
+        {/*<MemoDemo />*/}
+        {/*<PortalDemo />*/}
+        {/*<TableDemo />*/}
+        <DatagridDemo />
     </div>
   );
 }
